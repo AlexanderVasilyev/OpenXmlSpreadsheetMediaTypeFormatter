@@ -1,12 +1,14 @@
-# OpenXmlSpreadsheet MediaTypeFormatter
-Export to Excel a data from your WebAPI OData endpoint.
+# Overview
+
+OpenXmlSpreadsheet MediaTypeFormatter exports to Excel a data from your WebAPI OData endpoint.
+It uses OData engine to filter and sort a list of entities according to user request. Then using OpenXml library it creates an Excel file with data in columns as configured att app start (see example code below).
 
 # Usage
 
 Add the code to your Global.asax:
 
     ExportToExcelConfig.Register(GlobalConfiguration.Configuration);
-
+    
 And implement ExportToExcelConfig:
 
     public static class ExportToExcelConfig
