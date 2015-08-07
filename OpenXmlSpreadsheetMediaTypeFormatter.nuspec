@@ -2,12 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>OpenXmlSpreadsheetMediaTypeFormatter</id>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
+        <title>OpenXml Spreadsheet MediaTypeFormatter</title>
         <authors>Alexander Vasilyev</authors>
         <projectUrl>https://github.com/AlexanderVasilyev/OpenXmlSpreadsheetMediaTypeFormatter</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Export to Excel a data from your WebAPI OData endpoint.</description>
-        <releaseNotes>Initial release</releaseNotes>
+        <releaseNotes />
         <tags>odata openxml excel spreadsheet mediatypeformatter</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.5.2">
